@@ -3,4 +3,4 @@
 ** bold ** </p>
 *Italicised one star* 
 > Here is a blockquote </p>
-`Hhere is some code` 
+<p>`Hhere is some code` 
