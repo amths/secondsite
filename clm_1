@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canlendme - Rent Event Dresses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Canlendme</h1>
+            <p>Your community wardrobe for beautiful event dresses.</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#browse">Browse Dresses</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h2>Share your wardrobe, borrow someone else's</h2>
+                <p>Find the perfect dress for any event nearby.</p>
+                <a href="#browse" class="cta">Browse Dresses</a>
+            </div>
+        </section>
+
+        <!-- Browse Section -->
+        <section id="browse">
+            <div class="container">
+                <h2>Browse Dresses</h2>
+                <div class="filters">
+                    <label for="color">Color:</label>
+                    <select id="color">
+                        <option>All</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                        <option>Green</option>
+                    </select>
+
+                    <label for="style">Style:</label>
+                    <select id="style">
+                        <option>All</option>
+                        <option>Formal</option>
+                        <option>Casual</option>
+                        <option>Wedding Guest</option>
+                    </select>
+
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" placeholder="Enter city or postcode">
+                </div>
+
+                <div class="dress-grid">
+                    <!-- Sample Dresses -->
+                    <div class="dress-card">
+                        <img src="https://via.placeholder.com/200" alt="Red Dress">
+                        <h3>Red Maxi Dress</h3>
+                        <p>Style: Formal</p>
+                        <p>Location: New York</p>
+                        <button>View Details</button>
+                    </div>
+                    <div class="dress-card">
+                        <img src="https://via.placeholder.com/200" alt="Blue Dress">
+                        <h3>Blue Cocktail Dress</h3>
+                        <p>Style: Casual</p>
+                        <p>Location: Los Angeles</p>
+                        <button>View Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works">
+            <div class="container">
+                <h2>How It Works</h2>
+                <ol>
+                    <li>List your dresses with details and availability.</li>
+                    <li>Browse dresses shared by others near you.</li>
+                    <li>Arrange pick-up and return directly with the owner.</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Have questions? Reach out to us at <a href="mailto:support@canlendme.com">support@canlendme.com</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Canlendme. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
